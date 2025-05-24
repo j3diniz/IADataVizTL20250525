@@ -1,0 +1,8 @@
+altair
+cachetools
+DateTime
+numpy
+pandas
+plotly
+streamlit
+streamlit-option-menu
