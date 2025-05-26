@@ -18,6 +18,7 @@ st.set_page_config(
 st.markdown('## Inferência de Dados com Inteligência Artificial')
 st.markdown("### _Disponível_ em :red[breve!] :calendar:")
 
+st.write('---') # Hotline
 st.markdown(
     '''">
     Estudo de Caso:

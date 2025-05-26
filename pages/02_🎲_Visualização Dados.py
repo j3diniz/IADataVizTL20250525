@@ -18,10 +18,11 @@ st.set_page_config(
 
 st.markdown('## Análise de Dados')
 
-st.markdown('## Imóveis a venda em São Luís - MA')
+st.write('---') # Hotline
+st.markdown('## Estudo de Caso - Imóveis a venda em São Luís - MA')
 st.markdown(
     '''<p>
-    Estudo de Caso:
+    Descrição:
     
     Dados de imóveis a venda em São Luís - MA, residências, apartamentos e terrenos.
     A coluna preço mostra uma miniatura de gráfico que permite analisar a amplitude em relação aos demais dados.

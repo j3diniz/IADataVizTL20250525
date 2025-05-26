@@ -16,7 +16,9 @@ st.set_page_config(
 )
 
 st.markdown('## Geração de Informação')
+st.markdown("### _Disponível_ em :red[breve!] :calendar:")
 
+st.write('---') # Hotline
 st.markdown(
     '''<p>
     Estudo de Caso:

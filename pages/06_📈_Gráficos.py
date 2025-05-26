@@ -18,6 +18,7 @@ st.set_page_config(
 st.markdown('## Gráficos')
 st.markdown("### _Disponível_ em :red[breve!] :calendar:")
 
+st.write('---') # Hotline
 st.markdown(
     '''<p>
     Estudo de Caso:
