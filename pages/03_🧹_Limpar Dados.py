@@ -19,10 +19,12 @@ st.markdown('## Limpar Dados')
 st.markdown("### _Disponível_ em :red[breve!] :calendar:")
 
 st.markdown(
-    '''<p style="text-align: justify;">
+    '''<p>
+    Estudo de Caso:
+    
     Permite excluir dados com erros ou fora de padrão (outlier). Limitar dados dentro de um determinado intervalo de valores.
     Excluir dados indesejados. Resumir os dados para uma determinada pesquisa.
-    </p>'''
+    '''
     , unsafe_allow_html = True)
 
 # Sidebar

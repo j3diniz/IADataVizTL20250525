@@ -19,10 +19,12 @@ st.markdown('## Clusterizar Dados')
 st.markdown("### _Disponível_ em :red[breve!] :calendar:")
 
 st.markdown(
-    '''<p style="text-align: justify;">
+    '''<p>
+    Estudo de Caso:
+    
     Utiliza Inteligência Artificial para esta tarefa. Permite criar categorias de faixa de valores para os preços. 
     Exemplo, definifir padrões 'Baixo', 'Médio' e 'Alto' para os imóveis baseado nos preços.
-    </p>'''
+    '''
     , unsafe_allow_html = True)
 
 # Sidebar

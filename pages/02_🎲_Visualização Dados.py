@@ -5,8 +5,8 @@ from Utils.Utils import ReturnDf
 
 ### Page Configuration ###
 st.set_page_config(
-    page_title = 'Avaliações de Imóveis',
-    page_icon = '🏘️',
+    page_title = 'Análise de Dados',
+    page_icon = '🎲',
     layout = 'wide',
     initial_sidebar_state = 'expanded',
     menu_items = {
@@ -16,8 +16,18 @@ st.set_page_config(
     }
 )
 
-st.markdown('## Dados Imóveis')
-st.markdown('## São Luís - MA')
+st.markdown('## Análise de Dados')
+
+st.markdown('## Imóveis a venda em São Luís - MA')
+st.markdown(
+    '''<p>
+    Estudo de Caso:
+    
+    Dados de imóveis a venda em São Luís - MA, residências, apartamentos e terrenos.
+    A coluna preço mostra uma miniatura de gráfico que permite analisar a amplitude em relação aos demais dados.
+    Em um exemplo percebemos claramente que existem dados discrepantes, que devem ser analisados como "outliers".
+    '''
+    , unsafe_allow_html = True)
 
 if 'data' not in st.session_state:
     dfActual = ReturnDf('./Models/DataBase/ImoveisVendasSaoLuisMA20250305.csv', separator = ';', encoder = 'utf-8')

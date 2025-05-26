@@ -4,8 +4,8 @@ from Utils.Utils import ReturnDf
 
 ### Page Configuration ###
 st.set_page_config(
-    page_title = 'Gráficos',
-    page_icon = '📈',
+    page_title = 'Análise de Mercado com IA',
+    page_icon = '📄',
     layout = 'wide',
     initial_sidebar_state = 'expanded',
     menu_items = {
@@ -15,13 +15,16 @@ st.set_page_config(
     }
 )
 
-st.markdown('## Gráficos')
+st.markdown('## Análise de Mercado com Inteligência Artificial')
 st.markdown("### _Disponível_ em :red[breve!] :calendar:")
 
 st.markdown(
-    '''<p style="text-align: justify;">
-    Diversos gráficos para facilitar a visualização e análise dos dados.
-    </p>'''
+    '''<p>
+    Estudo de Caso:
+    
+    Utiliza Inteligência Artificial para definir um relatório de análise do mercado imobiliário.
+    Funcionalidade que pode auxiliar na definição de laudos e avaliações de imóveis.
+    '''
     , unsafe_allow_html = True)
 
 # Sidebar

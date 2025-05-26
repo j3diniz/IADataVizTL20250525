@@ -4,8 +4,8 @@ from Utils.Utils import ReturnDf
 
 ### Page Configuration ###
 st.set_page_config(
-    page_title = 'Ponto Notável',
-    page_icon = '🖼️',
+    page_title = 'Estimar Preço com IA',
+    page_icon = '💵',
     layout = 'wide',
     initial_sidebar_state = 'expanded',
     menu_items = {
@@ -15,13 +15,15 @@ st.set_page_config(
     }
 )
 
-st.markdown('## Ponto Notável')
+st.markdown('## Estimar Preço com Inteligência Artificial')
+st.markdown("### _Disponível_ em :red[breve!] :calendar:")
 
 st.markdown(
-    '''<p style="text-align: justify;">
-    Permite definir pontos notáveis que podem explicar a valorização ou desvalorização de um imóvel.
-    Por exemplor um shopping, parque, ponto turísitco, praia, etc. Uma coluna nova informa a distância de cada registro para o ponto notável definido.
-    </p>'''
+    '''<p>
+    Estudo de Caso:
+    
+    Possibilita estimar o preço de um novo imóvel com Inteligência Artificial, usando variáveis conhecidas.
+    '''
     , unsafe_allow_html = True)
 
 # Sidebar

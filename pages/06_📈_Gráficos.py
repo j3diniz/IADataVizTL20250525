@@ -4,8 +4,8 @@ from Utils.Utils import ReturnDf
 
 ### Page Configuration ###
 st.set_page_config(
-    page_title = 'Inferir Dados com IA',
-    page_icon = '🪄',
+    page_title = 'Gráficos',
+    page_icon = '📈',
     layout = 'wide',
     initial_sidebar_state = 'expanded',
     menu_items = {
@@ -15,14 +15,15 @@ st.set_page_config(
     }
 )
 
-st.markdown('## Inferência de Dados com Inteligência Artificial')
+st.markdown('## Gráficos')
 st.markdown("### _Disponível_ em :red[breve!] :calendar:")
 
 st.markdown(
-    '''<p style="text-align: justify;">
-    Utiliza Inteligência Artificial para inferir dados de textos, como o do resumo descritivo do imóvel, 
-    onde é possível extrair características do imóvel, como quantidade de quartos, área, etc.
-    </p>'''
+    '''<p>
+    Estudo de Caso:
+    
+    Diversos gráficos para facilitar a visualização e análise dos dados.
+    '''
     , unsafe_allow_html = True)
 
 # Sidebar
