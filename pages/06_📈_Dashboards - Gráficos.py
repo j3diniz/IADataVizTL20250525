@@ -4,7 +4,7 @@ from Utils.Utils import ReturnDf
 
 ### Page Configuration ###
 st.set_page_config(
-    page_title = 'Gráficos',
+    page_title = 'Dashboards - Gráficos',
     page_icon = '📈',
     layout = 'wide',
     initial_sidebar_state = 'expanded',
@@ -15,7 +15,7 @@ st.set_page_config(
     }
 )
 
-st.markdown('## Gráficos')
+st.markdown('## Dashboards - Gráficos')
 st.markdown("### _Disponível_ em :red[breve!] :calendar:")
 
 st.write('---') # Hotline
@@ -23,7 +23,7 @@ st.markdown(
     '''<p>
     Estudo de Caso:
     
-    Diversos gráficos para facilitar a visualização e análise dos dados.
+    Diversos dashboards / gráficos para facilitar a visualização e análise dos dados.
     '''
     , unsafe_allow_html = True)
 
